@@ -21,7 +21,8 @@ while True:
         
         # Send the price to the Telegram channel
         message = f"PEPE {price:.10f} USD"
-        bot.send_message(chat_id=CHAT_ID, text=message)
+       await bot.send_message(chat_id=CHAT_ID, text=message)
+
         
     except Exception as e:
         print(f"Error: {e}")
