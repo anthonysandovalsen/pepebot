@@ -11,7 +11,7 @@ TOKEN = "5723647924:AAEr7fodamyolFNJW7NGjqIlgjYEScmeuwY"
 CHAT_ID = "1613266416"
 
 # Define the Bybit API endpoint and parameters
-API_ENDPOINT = "https://api.bybit.com/v2/public/tickers"
+API_ENDPOINT = "https://api.bybit.com/v2/public/tickers?symbol=1000PEPEUSDT"
 SYMBOL = "1000PEPEUSDT"
 
 # Create the Telegram bot
